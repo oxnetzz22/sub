@@ -1,36 +1,3 @@
-####################################
-## direct  91.107.190.235.sslip.io  
-####################################
-
-# tls_WS_Fake_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
-vless://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mpaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=91.107.190.235.sslip.io&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_91.107.190.235.sslip.io
-
-# tls_WS_Fake_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
-trojan://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mpaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/trojanws&host=91.107.190.235.sslip.io&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_91.107.190.235.sslip.io
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
-vless://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=91.107.190.235.sslip.io&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_91.107.190.235.sslip.io
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
-trojan://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=ws&path=/Jfu7PvFVuqk761AmIn/trojanws&host=91.107.190.235.sslip.io&fp=chrome&headerType=None#tls_WS_direct_trojan_91.107.190.235.sslip.io
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
-vless://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=tcp&path=/Jfu7PvFVuqk761AmIn/vltc&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_91.107.190.235.sslip.io
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
-trojan://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=tcp&path=/Jfu7PvFVuqk761AmIn/trtc&fp=chrome&headerType=None#tls_tcp_direct_trojan_91.107.190.235.sslip.io
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
-vless://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=91.107.190.235.sslip.io&type=tcp&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_91.107.190.235.sslip.io
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
-vless://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=grpc&serviceName=Jfu7PvFVuqk761AmIn-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_91.107.190.235.sslip.io
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
-trojan://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235.sslip.io:443?security=tls&sni=91.107.190.235.sslip.io&type=grpc&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_91.107.190.235.sslip.io
-
-
-
 
 ####################################
 ## direct  join-to-oxnet-ch-network-ppxx.userargo1723.cf  
