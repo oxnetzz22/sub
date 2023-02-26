@@ -1,3 +1,73 @@
+####################################
+## direct  join-to-oxnet-ch-network-s1czdd.userargo1723.cf  
+####################################
+
+# tls_WS_Fake_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mppz0.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_WS_Fake_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mppz0.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_WS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_WS_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_tcp_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/vltc&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_tcp_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/trtc&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_XTLS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_grpc_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+# tls_grpc_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+
+
+
+
+####################################
+## cdn  join-to-oxnet-ch-network-s1crr.userargo1723.cf  
+####################################
+
+# tls_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
+
+# tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
+
+# tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
+
+# tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
+
+
+
+
+####################################
+## cdn  join-to-oxnet-ch-network-s1eee2.userargo1723.cf  
+####################################
+
+# tls_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
+
+# tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
+
+# tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
+
+# tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
+trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
+
+
 
 ####################################
 ## direct  join-to-oxnet-ch-network-ppxx.userargo1723.cf  
@@ -67,95 +137,6 @@ vless://702a4962-126b-4054-aaba-48d6dff2b2da@45.85.118.241:443?security=tls&sni=
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
 trojan://702a4962-126b-4054-aaba-48d6dff2b2da@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-mcc.userargo1723.cf&type=grpc&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-mcc.userargo1723.cf
-
-
-
-####################################
-## direct  join-to-oxnet-ch-network-s1czdd.userargo1723.cf  
-####################################
-
-# tls_WS_Fake_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mppz0.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_WS_Fake_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mppz0.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/vltc&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/trtc&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-
-# http_WS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# http_tcp_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/vltc&encryption=none&fp=chrome&headerType=None#http_tcp_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-
-
-####################################
-## cdn  join-to-oxnet-ch-network-s1crr.userargo1723.cf  
-####################################
-
-# tls_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-# tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-
-# tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-# tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-
-# http_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-
-
-
-####################################
-## cdn  join-to-oxnet-ch-network-s1eee2.userargo1723.cf  
-####################################
-
-# tls_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
-
-# tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
-
-
-# tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
-
-# tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
-
-# http_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:80?security=none&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
-
 
 
 
