@@ -80,8 +80,6 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.user
 # tls_WS_Fake_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-mppz0.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mppz0.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 
-# tls_WS_Fake_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19GYWtlX3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6MC51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IjQ0MyIsICJpZCI6IjkxNjE4YWU0LTgzNjQtNDMwYy1iOTQxLWY1NWFkNzhjMDk4NSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwejAudXNlcmFyZ28xNzIzLmNmIn0=
 
 # tls_WS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
@@ -89,8 +87,6 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.use
 # tls_WS_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 
-# tls_WS_direct_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3pkZC51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3pkZC51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IjQ0MyIsICJpZCI6IjkxNjE4YWU0LTgzNjQtNDMwYy1iOTQxLWY1NWFkNzhjMDk4NSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiJ9
 
 # tls_tcp_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/vltc&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
@@ -98,20 +94,12 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.use
 # tls_tcp_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/trtc&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 
-# tls_tcp_direct_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc190Y3BfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiI0NDMiLCAiaWQiOiI5MTYxOGFlNC04MzY0LTQzMGMtYjk0MS1mNTVhZDc4YzA5ODUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6InRjcCIsICJ0eXBlIjoibm9uZSIsICJob3N0IjoiIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bXRjIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiJ9
 
 # http_WS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 
-# http_WS_direct_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiI4MCIsICJpZCI6IjkxNjE4YWU0LTgzNjQtNDMwYy1iOTQxLWY1NWFkNzhjMDk4NSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWN6ZGQudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bWVzc3dzIiwgInRscyI6Imh0dHAiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3pkZC51c2VyYXJnbzE3MjMuY2YifQ==
-
 # http_tcp_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&path=/GRjbVR9K559kLjxnBuYKdYMTF/vltc&encryption=none&fp=chrome&headerType=None#http_tcp_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# http_tcp_direct_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfdGNwX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjoiODAiLCAiaWQiOiI5MTYxOGFlNC04MzY0LTQzMGMtYjk0MS1mNTVhZDc4YzA5ODUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6InRjcCIsICJ0eXBlIjoibm9uZSIsICJob3N0IjoiIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bXRjIiwgInRscyI6Imh0dHAiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3pkZC51c2VyYXJnbzE3MjMuY2YifQ==
 
 # tls_XTLS_direct_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=tcp&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
@@ -121,10 +109,6 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.use
 
 # tls_grpc_direct_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1czdd.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1czdd.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-
-# tls_grpc_direct_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjemRkLnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjoiNDQzIiwgImlkIjoiOTE2MThhZTQtODM2NC00MzBjLWI5NDEtZjU1YWQ3OGMwOTg1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJncnBjIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiIiLCAicGF0aCI6IiIsICJ0bHMiOiJ0bHMiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3pkZC51c2VyYXJnbzE3MjMuY2YifQ==
-
 
 
 
@@ -138,8 +122,6 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.user
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
 
-# tls_WS_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3JyLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjcnIudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiI0NDMiLCAiaWQiOiI5MTYxOGFlNC04MzY0LTQzMGMtYjk0MS1mNTVhZDc4YzA5ODUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjcnIudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjcnIudXNlcmFyZ28xNzIzLmNmIn0=
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
@@ -147,14 +129,9 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.user
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1crr.userargo1723.cf
 
-# tls_grpc_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjcnIudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWNyci51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IjQ0MyIsICJpZCI6IjkxNjE4YWU0LTgzNjQtNDMwYy1iOTQxLWY1NWFkNzhjMDk4NSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0IjoiZ3JwYyIsICJ0eXBlIjoibm9uZSIsICJob3N0IjoiIiwgInBhdGgiOiIiLCAidGxzIjoidGxzIiwgInNuaSI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWNyci51c2VyYXJnbzE3MjMuY2YifQ==
 
 # http_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@join-to-oxnet-ch-network-s1crr.userargo1723.cf:80?security=none&sni=join-to-oxnet-ch-network-s1crr.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1crr.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_join-to-oxnet-ch-network-s1crr.userargo1723.cf
-
-# http_WS_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfQ0ROX3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWNyci51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3JyLnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjoiODAiLCAiaWQiOiI5MTYxOGFlNC04MzY0LTQzMGMtYjk0MS1mNTVhZDc4YzA5ODUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFjcnIudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiIvR1JqYlZSOUs1NTlrTGp4bkJ1WUtkWU1URi92bWVzc3dzIiwgInRscyI6Imh0dHAiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxY3JyLnVzZXJhcmdvMTcyMy5jZiJ9
 
 
 
@@ -169,8 +146,6 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/trojanws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
 
-# tls_WS_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxZWVlMi51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjoiNDUuODUuMTE4LjI0MSIsICJwb3J0IjoiNDQzIiwgImlkIjoiOTE2MThhZTQtODM2NC00MzBjLWI5NDEtZjU1YWQ3OGMwOTg1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxZWVlMi51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6Ii9HUmpiVlI5SzU1OWtManhuQnVZS2RZTVRGL3ZtZXNzd3MiLCAidGxzIjoidGxzIiwgInNuaSI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWVlZTIudXNlcmFyZ28xNzIzLmNmIn0=
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
@@ -178,14 +153,9 @@ vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 trojan://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=grpc&serviceName=GRjbVR9K559kLjxnBuYKdYMTF-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
 
-# tls_grpc_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFlZWUyLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiI0NS44NS4xMTguMjQxIiwgInBvcnQiOiI0NDMiLCAiaWQiOiI5MTYxOGFlNC04MzY0LTQzMGMtYjk0MS1mNTVhZDc4YzA5ODUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6ImdycGMiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6IiIsICJwYXRoIjoiIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFlZWUyLnVzZXJhcmdvMTcyMy5jZiJ9
-
 # http_WS_CDN_vless join-to-oxnet-ch-network-s1czdd.userargo1723.cf
 vless://91618ae4-8364-430c-b941-f55ad78c0985@45.85.118.241:80?security=none&sni=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&type=ws&path=/GRjbVR9K559kLjxnBuYKdYMTF/vlessws&host=join-to-oxnet-ch-network-s1eee2.userargo1723.cf&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_join-to-oxnet-ch-network-s1eee2.userargo1723.cf
 
-# http_WS_CDN_vmess join-to-oxnet-ch-network-s1czdd.userargo1723.cf
-vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfQ0ROX3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1zMWVlZTIudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6IjQ1Ljg1LjExOC4yNDEiLCAicG9ydCI6IjgwIiwgImlkIjoiOTE2MThhZTQtODM2NC00MzBjLWI5NDEtZjU1YWQ3OGMwOTg1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLXMxZWVlMi51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6Ii9HUmpiVlI5SzU1OWtManhuQnVZS2RZTVRGL3ZtZXNzd3MiLCAidGxzIjoiaHR0cCIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstczFlZWUyLnVzZXJhcmdvMTcyMy5jZiJ9
 
 
 
