@@ -1,6 +1,3 @@
-####################################
-## direct  join-to-oxnet-ch-network-ppxx.userargo1723.cf  
-####################################
 
 # tls_WS_Fake_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mpaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-ppxx.userargo1723.cf&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_join-to-oxnet-ch-network-ppxx.userargo1723.cf
@@ -30,12 +27,6 @@ vless://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-ppxx.usera
 trojan://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-ppxx.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-ppxx.userargo1723.cf&type=grpc&host=join-to-oxnet-ch-network-ppxx.userargo1723.cf&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-ppxx.userargo1723.cf
 
 
-
-
-####################################
-## cdn  join-to-oxnet-ch-network-mpaa.userargo1723.cf  
-####################################
-
 # tls_WS_CDN_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mpaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-mpaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-mpaa.userargo1723.cf
 
@@ -50,11 +41,6 @@ trojan://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.user
 
 
 
-
-####################################
-## cdn  join-to-oxnet-ch-network-mcc.userargo1723.cf  
-####################################
-
 # tls_WS_CDN_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-mcc.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-mcc.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-mcc.userargo1723.cf
 
@@ -67,12 +53,6 @@ vless://702a4962-126b-4054-aaba-48d6dff2b2da@45.85.118.241:443?security=tls&sni=
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
 trojan://702a4962-126b-4054-aaba-48d6dff2b2da@45.85.118.241:443?security=tls&sni=join-to-oxnet-ch-network-mcc.userargo1723.cf&type=grpc&host=join-to-oxnet-ch-network-mcc.userargo1723.cf&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-mcc.userargo1723.cf
 
-
-
-
-####################################
-## cdn  join-to-oxnet-ch-network-mpoo.userargo1723.cf  
-####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@170.114.45.188:443?security=tls&sni=join-to-oxnet-ch-network-mpoo.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-mpoo.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-mpoo.userargo1723.cf
@@ -88,11 +68,6 @@ trojan://702a4962-126b-4054-aaba-48d6dff2b2da@170.114.45.188:443?security=tls&sn
 
 
 
-
-####################################
-## cdn  join-to-oxnet-ch-network-moiaa.userargo1723.cf  
-####################################
-
 # tls_WS_CDN_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@188.42.88.25:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
 
@@ -104,13 +79,6 @@ vless://702a4962-126b-4054-aaba-48d6dff2b2da@188.42.88.25:443?security=tls&sni=j
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
 trojan://702a4962-126b-4054-aaba-48d6dff2b2da@188.42.88.25:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=grpc&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
-
-
-
-
-####################################
-## fake  join-to-oxnet-ch-network-moifake.userargo1723.cf  
-####################################
 
 # tls_WS_Fake_vless join-to-oxnet-ch-network-ppxx.userargo1723.cf
 vless://702a4962-126b-4054-aaba-48d6dff2b2da@join-to-oxnet-ch-network-mpaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mpaa.userargo1723.cf&type=ws&path=/Jfu7PvFVuqk761AmIn/vlessws&host=join-to-oxnet-ch-network-moifake.userargo1723.cf&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_join-to-oxnet-ch-network-moifake.userargo1723.cf
@@ -138,7 +106,3 @@ vless://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235:443?security=tls&sni
 
 # tls_grpc_direct_trojan join-to-oxnet-ch-network-ppxx.userargo1723.cf
 trojan://702a4962-126b-4054-aaba-48d6dff2b2da@91.107.190.235:443?security=tls&sni=join-to-oxnet-ch-network-moifake.userargo1723.cf&type=grpc&host=join-to-oxnet-ch-network-moifake.userargo1723.cf&serviceName=Jfu7PvFVuqk761AmIn-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-moifake.userargo1723.cf
-
-
-
-
