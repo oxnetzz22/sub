@@ -1,30 +1,160 @@
-Server 1
+####################################
+## direct  server1-link-1.oxnetwork.gw.to  
+####################################
 
-++++++++++
-vmess://eyJhZGQiOiJveHp6c2VydmVyLTEub3huZXR3b3JrLmd3LnRvIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoid3d3LmlyYW5zZXJ2ZXIuY29tIiwiaWQiOiIzMzQ2OTliYy01YzI1LTQzNGUtYTA5MC0zZjhhY2Q4N2YyODQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbXciLCJwb3J0IjoiNDQzIiwicHMiOiLwn5qAIFMxIEpPSU4gKG94bmV0KSIsInNjeSI6ImF1dG8iLCJzbmkiOiJveHp6c2VydmVyLTEub3huZXR3b3JrLmd3LnRvIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
-vmess://eyJhZGQiOiJveHp6c2VydmVyLTEub3huZXR3b3JrLmd3LnRvIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiIiwiaWQiOiIzMzQ2OTliYy01YzI1LTQzNGUtYTA5MC0zZjhhY2Q4N2YyODQiLCJuZXQiOiJncnBjIiwicGF0aCI6Im1nIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+agCBTMSBKT0lOIChveG5ldCkiLCJzY3kiOiJhdXRvIiwic25pIjoib3h6enNlcnZlci0xLm94bmV0d29yay5ndy50byIsInRscyI6InRscyIsInR5cGUiOiJndW4iLCJ2IjoiMiJ9
-vless://64d50302-9f31-4853-b27d-34e00d375d93@oxzzserver-1.oxnetwork.gw.to:443?path=%2Flw&security=tls&encryption=none&host=www.iranserver.com&type=ws&sni=oxzzserver-1.oxnetwork.gw.to#%F0%9F%9A%80+S1+JOIN+%28oxnet%29
-vless://64d50302-9f31-4853-b27d-34e00d375d93@oxzzserver-1.oxnetwork.gw.to:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=lg&sni=oxzzserver-1.oxnetwork.gw.to#%F0%9F%9A%80+S1+JOIN+%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@oxzzserver-1.oxnetwork.gw.to:443?security=tls&headerType=none&type=tcp&sni=oxzzserver-1.oxnetwork.gw.to#%F0%9F%9A%80+S1+JOIN+%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@oxzzserver-1.oxnetwork.gw.to:443?path=%2Ftw&security=tls&host=www.iranserver.com&type=ws&sni=oxzzserver-1.oxnetwork.gw.to#%F0%9F%9A%80+S1+JOIN+%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@oxzzserver-1.oxnetwork.gw.to:443?mode=gun&security=tls&type=grpc&serviceName=tg&sni=oxzzserver-1.oxnetwork.gw.to#%F0%9F%9A%80+S1+JOIN+%28oxnet%29
+# tls_WS_Fake_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_🚀 S2 JOIN (oxnet)
 
-cdn
-+++++++
+# tls_WS_Fake_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=server1-link-1.oxnetwork.gw.to&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_🚀 S2 JOIN (oxnet)
 
-vmess://eyJhZGQiOiJ0Z2p1Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6Im94enpzZXJ2ZXItMS5veG5ldHdvcmsuZ3cudG8iLCJpZCI6IjMzNDY5OWJjLTVjMjUtNDM0ZS1hMDkwLTNmOGFjZDg3ZjI4NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9tdyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfmoAgQ0ROIEpPSU4gIChveG5ldCkiLCJzY3kiOiJhdXRvIiwic25pIjoib3h6enNlcnZlci0xLWNkLm94bmV0d29yay5ndy50byIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
-vless://64d50302-9f31-4853-b27d-34e00d375d93@tgju.org:443?path=%2Flw&security=tls&encryption=none&host=oxzzserver-1.oxnetwork.gw.to&type=ws&sni=oxzzserver-1-cd.oxnetwork.gw.to#%F0%9F%9A%80+CDN+JOIN++%28oxnet%29
-vless://64d50302-9f31-4853-b27d-34e00d375d93@oxzzserver-1-cd.oxnetwork.gw.to:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=lg&sni=oxzzserver-1-cd.oxnetwork.gw.to#%F0%9F%9A%80+CDN+JOIN++%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@tgju.org:443?path=%2Ftw&security=tls&host=oxzzserver-1-cd.oxnetwork.gw.to&type=ws&sni=oxzzserver-1-cd.oxnetwork.gw.to#%F0%9F%9A%80+CDN+JOIN++%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@oxzzserver-1-cd.oxnetwork.gw.to:443?mode=gun&security=tls&type=grpc&serviceName=tg&sni=oxzzserver-1-cd.oxnetwork.gw.to#%F0%9F%9A%80+CDN+JOIN++%28oxnet%29
+# tls_WS_Fake_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19GYWtlX3ZtZXNzX/CfmoAgUzIgSk9JTiAob3huZXQpIiwgImFkZCI6InNlcnZlcjEtbGluay1jZG4uMS5veG5ldHdvcmsuZ3cudG8iLCAicG9ydCI6IjQ0MyIsICJpZCI6IjExZDMxYzU0LWI4M2UtNDUxNS1hMzI4LTMyYjViMmIyNWRjNSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJzZXJ2ZXIxLWxpbmstY2RuLjEub3huZXR3b3JrLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
 
-irancell / mci
+# tls_WS_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_🚀 S2 JOIN (oxnet)
 
-+++++++
+# tls_WS_direct_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=server1-link-1.oxnetwork.gw.to&fp=chrome&headerType=None#tls_WS_direct_trojan_🚀 S2 JOIN (oxnet)
 
-vmess://eyJhZGQiOiI0NS44NS4xMTguMjQxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoib3h6enNlcnZlci0xLm94bmV0d29yay5ndy50byIsImlkIjoiMzM0Njk5YmMtNWMyNS00MzRlLWEwOTAtM2Y4YWNkODdmMjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiL213IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+agCBpcmFuY2VsbCAvIE1DSSBKT0lOIChveG5ldCkiLCJzY3kiOiJhdXRvIiwic25pIjoiaXJhY25lbGwtc2VydmVyMTEub3huZXR3b3JrLmd3LnRvIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
-vmess://eyJhZGQiOiI0NS44NS4xMTguMjQxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiIiwiaWQiOiIzMzQ2OTliYy01YzI1LTQzNGUtYTA5MC0zZjhhY2Q4N2YyODQiLCJuZXQiOiJncnBjIiwicGF0aCI6Im1nIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+agCBpcmFuY2VsbCAvIE1DSSBKT0lOIChveG5ldCkiLCJzY3kiOiJhdXRvIiwic25pIjoiaXJhY25lbGwtc2VydmVyMTEub3huZXR3b3JrLmd3LnRvIiwidGxzIjoidGxzIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
-vless://64d50302-9f31-4853-b27d-34e00d375d93@45.85.118.241:443?path=%2Flw&security=tls&encryption=none&host=oxzzserver-1.oxnetwork.gw.to&type=ws&sni=iracnell-server11.oxnetwork.gw.to#%F0%9F%9A%80+irancell+%2F+MCI+JOIN+%28oxnet%29
-vless://64d50302-9f31-4853-b27d-34e00d375d93@45.85.118.241:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=lg&sni=iracnell-server11.oxnetwork.gw.to#%F0%9F%9A%80+irancell+%2F+MCI+JOIN+%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@45.85.118.241:443?path=%2Ftw&security=tls&host=oxzzserver-1.oxnetwork.gw.to&type=ws&sni=iracnell-server11.oxnetwork.gw.to#%F0%9F%9A%80+irancell+%2F+MCI+JOIN+%28oxnet%29
-trojan://qi5-c8LKtnHShPUItCdFdw@45.85.118.241:443?mode=gun&security=tls&type=grpc&serviceName=tg&sni=iracnell-server11.oxnetwork.gw.to#%F0%9F%9A%80+irancell+%2F+MCI+JOIN+%28oxnet%29
+# tls_WS_direct_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19kaXJlY3Rfdm1lc3Nf8J+agCBTMiBKT0lOIChveG5ldCkiLCAiYWRkIjoic2VydmVyMS1saW5rLTEub3huZXR3b3JrLmd3LnRvIiwgInBvcnQiOiI0NDMiLCAiaWQiOiIxMWQzMWM1NC1iODNlLTQ1MTUtYTMyOC0zMmI1YjJiMjVkYzUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJzZXJ2ZXIxLWxpbmstMS5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJ0bHMiLCAic25pIjoic2VydmVyMS1saW5rLTEub3huZXR3b3JrLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+
+# tls_tcp_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=tcp&path=/ryrPNg94MymJ2VUM19/vltc&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_🚀 S2 JOIN (oxnet)
+
+# tls_tcp_direct_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=tcp&path=/ryrPNg94MymJ2VUM19/trtc&host=server1-link-1.oxnetwork.gw.to&fp=chrome&headerType=None#tls_tcp_direct_trojan_🚀 S2 JOIN (oxnet)
+
+# tls_tcp_direct_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc190Y3BfZGlyZWN0X3ZtZXNzX/CfmoAgUzIgSk9JTiAob3huZXQpIiwgImFkZCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwb3J0IjoiNDQzIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ0Y3AiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bXRjIiwgInRscyI6InRscyIsICJzbmkiOiJzZXJ2ZXIxLWxpbmstMS5veG5ldHdvcmsuZ3cudG8iLCJmcCI6ImNocm9tZSJ9
+
+# tls_shadowtls_direct_ss server1-link-1.oxnetwork.gw.to
+ss://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=shadowtls&host=server1-link-1.oxnetwork.gw.to&fp=chrome&headerType=None#tls_shadowtls_direct_ss_🚀 S2 JOIN (oxnet)
+
+# http_WS_Fake_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:80?security=none&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#http_WS_Fake_vless_🚀 S2 JOIN (oxnet)
+
+# http_WS_Fake_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfRmFrZV92bWVzc1/wn5qAIFMyIEpPSU4gKG94bmV0KSIsICJhZGQiOiJzZXJ2ZXIxLWxpbmstY2RuLjEub3huZXR3b3JrLmd3LnRvIiwgInBvcnQiOiI4MCIsICJpZCI6IjExZDMxYzU0LWI4M2UtNDUxNS1hMzI4LTMyYjViMmIyNWRjNSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6Imh0dHAiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+# http_WS_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:80?security=none&sni=server1-link-1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#http_WS_direct_vless_🚀 S2 JOIN (oxnet)
+
+# http_WS_direct_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfZGlyZWN0X3ZtZXNzX/CfmoAgUzIgSk9JTiAob3huZXQpIiwgImFkZCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwb3J0IjoiODAiLCAiaWQiOiIxMWQzMWM1NC1iODNlLTQ1MTUtYTMyOC0zMmI1YjJiMjVkYzUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJzZXJ2ZXIxLWxpbmstMS5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJodHRwIiwgInNuaSI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+# http_tcp_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:80?security=none&sni=server1-link-1.oxnetwork.gw.to&type=tcp&path=/ryrPNg94MymJ2VUM19/vltc&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#http_tcp_direct_vless_🚀 S2 JOIN (oxnet)
+
+# http_tcp_direct_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfdGNwX2RpcmVjdF92bWVzc1/wn5qAIFMyIEpPSU4gKG94bmV0KSIsICJhZGQiOiJzZXJ2ZXIxLWxpbmstMS5veG5ldHdvcmsuZ3cudG8iLCAicG9ydCI6IjgwIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ0Y3AiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bXRjIiwgInRscyI6Imh0dHAiLCAic25pIjoic2VydmVyMS1saW5rLTEub3huZXR3b3JrLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+
+# tls_XTLS_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=server1-link-1.oxnetwork.gw.to&type=tcp&host=server1-link-1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_🚀 S2 JOIN (oxnet)
+
+# tls_grpc_direct_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=grpc&host=server1-link-1.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_🚀 S2 JOIN (oxnet)
+
+# tls_grpc_direct_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-1.oxnetwork.gw.to:443?security=tls&sni=server1-link-1.oxnetwork.gw.to&type=grpc&host=server1-link-1.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_🚀 S2 JOIN (oxnet)
+
+# tls_grpc_direct_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX2RpcmVjdF92bWVzc1/wn5qAIFMyIEpPSU4gKG94bmV0KSIsICJhZGQiOiJzZXJ2ZXIxLWxpbmstMS5veG5ldHdvcmsuZ3cudG8iLCAicG9ydCI6IjQ0MyIsICJpZCI6IjExZDMxYzU0LWI4M2UtNDUxNS1hMzI4LTMyYjViMmIyNWRjNSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0IjoiZ3JwYyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoic2VydmVyMS1saW5rLTEub3huZXR3b3JrLmd3LnRvIiwgInBhdGgiOiIiLCAidGxzIjoidGxzIiwgInNuaSI6InNlcnZlcjEtbGluay0xLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+
+
+
+####################################
+## cdn  server1-link-cdn.1.oxnetwork.gw.to  
+####################################
+
+# tls_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S2 CDN 1 JOIN (oxnet)
+
+# tls_WS_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=server1-link-cdn.1.oxnetwork.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S2 CDN 1 JOIN (oxnet)
+
+# tls_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMiBDRE4gMSBKT0lOIChveG5ldCkiLCAiYWRkIjoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsICJwb3J0IjoiNDQzIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJzZXJ2ZXIxLWxpbmstY2RuLjEub3huZXR3b3JrLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+
+# tls_grpc_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.1.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S2 CDN 1 JOIN (oxnet)
+
+# tls_grpc_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:443?security=tls&sni=server1-link-cdn.1.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.1.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S2 CDN 1 JOIN (oxnet)
+
+# tls_grpc_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMyIENETiAxIEpPSU4gKG94bmV0KSIsICJhZGQiOiJzZXJ2ZXIxLWxpbmstY2RuLjEub3huZXR3b3JrLmd3LnRvIiwgInBvcnQiOiI0NDMiLCAiaWQiOiIxMWQzMWM1NC1iODNlLTQ1MTUtYTMyOC0zMmI1YjJiMjVkYzUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6ImdycGMiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay1jZG4uMS5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6IiIsICJ0bHMiOiJ0bHMiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+# http_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@server1-link-cdn.1.oxnetwork.gw.to:80?security=none&sni=server1-link-cdn.1.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.1.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_🚀 S2 CDN 1 JOIN (oxnet)
+
+# http_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfQ0ROX3ZtZXNzX/CfmoAgUzIgQ0ROIDEgSk9JTiAob3huZXQpIiwgImFkZCI6InNlcnZlcjEtbGluay1jZG4uMS5veG5ldHdvcmsuZ3cudG8iLCAicG9ydCI6IjgwIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6Imh0dHAiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4xLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+
+
+
+####################################
+## cdn  server1-link-cdn.2.oxnetwork.gw.to  
+####################################
+
+# tls_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.118.241:443?security=tls&sni=server1-link-cdn.2.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.2.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S2 CDN 2 JOIN (oxnet)
+
+# tls_WS_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.118.241:443?security=tls&sni=server1-link-cdn.2.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=server1-link-cdn.2.oxnetwork.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S2 CDN 2 JOIN (oxnet)
+
+# tls_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMiBDRE4gMiBKT0lOIChveG5ldCkiLCAiYWRkIjoiNDUuODUuMTE4LjI0MSIsICJwb3J0IjoiNDQzIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoic2VydmVyMS1saW5rLWNkbi4yLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJzZXJ2ZXIxLWxpbmstY2RuLjIub3huZXR3b3JrLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+
+# tls_grpc_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.118.241:443?security=tls&sni=server1-link-cdn.2.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.2.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S2 CDN 2 JOIN (oxnet)
+
+# tls_grpc_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.118.241:443?security=tls&sni=server1-link-cdn.2.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.2.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S2 CDN 2 JOIN (oxnet)
+
+# tls_grpc_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMyIENETiAyIEpPSU4gKG94bmV0KSIsICJhZGQiOiI0NS44NS4xMTguMjQxIiwgInBvcnQiOiI0NDMiLCAiaWQiOiIxMWQzMWM1NC1iODNlLTQ1MTUtYTMyOC0zMmI1YjJiMjVkYzUiLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6ImdycGMiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay1jZG4uMi5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6IiIsICJ0bHMiOiJ0bHMiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4yLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+# http_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.118.241:80?security=none&sni=server1-link-cdn.2.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.2.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_🚀 S2 CDN 2 JOIN (oxnet)
+
+# http_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfQ0ROX3ZtZXNzX/CfmoAgUzIgQ0ROIDIgSk9JTiAob3huZXQpIiwgImFkZCI6IjQ1Ljg1LjExOC4yNDEiLCAicG9ydCI6IjgwIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoic2VydmVyMS1saW5rLWNkbi4yLm94bmV0d29yay5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6Imh0dHAiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4yLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+
+
+
+####################################
+## cdn  server1-link-cdn.3.oxnetwork.gw.to  
+####################################
+
+# tls_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=server1-link-cdn.3.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.3.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S2 CDN 3 JOIN (oxnet)
+
+# tls_WS_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=server1-link-cdn.3.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=server1-link-cdn.3.oxnetwork.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S2 CDN 3 JOIN (oxnet)
+
+# tls_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMiBDRE4gMyBKT0lOIChveG5ldCkiLCAiYWRkIjoiMTg4LjQyLjg5LjIiLCAicG9ydCI6IjQ0MyIsICJpZCI6IjExZDMxYzU0LWI4M2UtNDUxNS1hMzI4LTMyYjViMmIyNWRjNSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay1jZG4uMy5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJ0bHMiLCAic25pIjoic2VydmVyMS1saW5rLWNkbi4zLm94bmV0d29yay5ndy50byIsImZwIjoiY2hyb21lIn0=
+
+# tls_grpc_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=server1-link-cdn.3.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.3.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S2 CDN 3 JOIN (oxnet)
+
+# tls_grpc_CDN_trojan server1-link-1.oxnetwork.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=server1-link-cdn.3.oxnetwork.gw.to&type=grpc&host=server1-link-cdn.3.oxnetwork.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S2 CDN 3 JOIN (oxnet)
+
+# tls_grpc_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMyIENETiAzIEpPSU4gKG94bmV0KSIsICJhZGQiOiIxODguNDIuODkuMiIsICJwb3J0IjoiNDQzIiwgImlkIjoiMTFkMzFjNTQtYjgzZS00NTE1LWEzMjgtMzJiNWIyYjI1ZGM1IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJncnBjIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJzZXJ2ZXIxLWxpbmstY2RuLjMub3huZXR3b3JrLmd3LnRvIiwgInBhdGgiOiIiLCAidGxzIjoidGxzIiwgInNuaSI6InNlcnZlcjEtbGluay1jZG4uMy5veG5ldHdvcmsuZ3cudG8iLCJmcCI6ImNocm9tZSJ9
+
+# http_WS_CDN_vless server1-link-1.oxnetwork.gw.to
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:80?security=none&sni=server1-link-cdn.3.oxnetwork.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=server1-link-cdn.3.oxnetwork.gw.to&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_🚀 S2 CDN 3 JOIN (oxnet)
+
+# http_WS_CDN_vmess server1-link-1.oxnetwork.gw.to
+vmess://eyJ2IjoiMiIsICJwcyI6Imh0dHBfV1NfQ0ROX3ZtZXNzX/CfmoAgUzIgQ0ROIDMgSk9JTiAob3huZXQpIiwgImFkZCI6IjE4OC40Mi44OS4yIiwgInBvcnQiOiI4MCIsICJpZCI6IjExZDMxYzU0LWI4M2UtNDUxNS1hMzI4LTMyYjViMmIyNWRjNSIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6InNlcnZlcjEtbGluay1jZG4uMy5veG5ldHdvcmsuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJodHRwIiwgInNuaSI6InNlcnZlcjEtbGluay1jZG4uMy5veG5ldHdvcmsuZ3cudG8iLCJmcCI6ImNocm9tZSJ9
+
+
+
+
