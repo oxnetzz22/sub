@@ -89,3 +89,9 @@ vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=
 
 # tls_grpc_CDN_trojan mrox-join.oxnetch.oxnetwork-ir.cf
 trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=mrox-join.oxnetch-pwa3.oxnetwork-ir.cf&type=grpc&host=mrox-join.oxnetch-pwa3.oxnetwork-ir.cf&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 CDN 3 JOIN (oxnet)
+
+
+
+
+@oxnetch
+
