@@ -1,3 +1,6 @@
+
+ss://aes-256-cfb:0@20.23.03.09:00#0GB/1000GB Remain:90days 
+
 ####################################
 ## direct  mrox-join.oxnetch.oxnetwork-ir.cf  
 ####################################
@@ -106,3 +109,7 @@ trojan://975b75ee-da3f-4c78-9399-352224260b77@45.85.119.120:443?security=tls&sni
 
 # http_WS_CDN_vless mrox-join.oxnetch.oxnetwork-ir.cf
 vless://975b75ee-da3f-4c78-9399-352224260b77@45.85.119.120:80?security=none&sni=mrox-join.oxnetch-pwa3.oxnetwork-ir.cf&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=mrox-join.oxnetch-pwa3.oxnetwork-ir.cf&encryption=none&fp=chrome&headerType=None#http_WS_CDN_vless_🚀 S1 CDN 3 JOIN (oxnet)
+
+
+
+
