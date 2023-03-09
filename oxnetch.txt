@@ -1,5 +1,5 @@
 
-trojan://1@20.23.03.09:22#0/6000GB_Remain:28days 
+
 
 ####################################
 ## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  tls:443
