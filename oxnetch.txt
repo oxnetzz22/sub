@@ -1,5 +1,4 @@
 
-trojan://1@20.23.03.09:21#0GB/2000GB%20Remain%3A28days 
 
 ####################################
 ## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  
