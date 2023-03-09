@@ -1,95 +1,72 @@
 
+trojan://1@20.23.03.09:22#0/6000GB_Remain:28days 
 
 ####################################
-## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  
+## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  tls:443
 ####################################
 
 # tls_WS_Fake_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_🚀 S1 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_🚀 S1 JOIN (@oxnetch)
 
 # tls_WS_Fake_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_🚀 S1 JOIN (@oxnetch)
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_🚀 S1 JOIN (@oxnetch)
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_direct_trojan_🚀 S1 JOIN (@oxnetch)
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=tcp&path=/vaP4e5O11gaoMnjeclas&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_🚀 S1 JOIN (@oxnetch)
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=tcp&path=/twdf3vv91lqSoMnjeclas&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_tcp_direct_trojan_🚀 S1 JOIN (@oxnetch)
-
-# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-ss://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=shadowtls&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_shadowtls_direct_ss_🚀 S1 JOIN (@oxnetch)
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=tcp&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_🚀 S1 JOIN (@oxnetch)
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=grpc&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_🚀 S1 JOIN (@oxnetch)
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=grpc&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_🚀 S1 JOIN (@oxnetch)
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_🚀 S1 JOIN (@oxnetch)
 
 
 
 
 ####################################
-## cdn  join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to  
+## cdn  join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to  tls:443
 ####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 1 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 1 JOIN (@oxnetch)
 
-# tls_WS_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 1 JOIN (@oxnetch)
+# tls_WS_CDN_trojan	 join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan	_🚀 S DE CDN 1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 1 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 1 JOIN (@oxnetch)
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 1 JOIN (@oxnetch)
 
 
 
 
 ####################################
-## cdn  join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to  
+## cdn  join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to  tls:443
 ####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
-# tls_WS_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+# tls_WS_CDN_trojan	 join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan	_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 
 
 
 ####################################
-## cdn  join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to  
+## cdn  join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to  tls:443
 ####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
 
-# tls_WS_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
+# tls_WS_CDN_trojan	 join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&alpn=http/1.1&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan	_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=grpc&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=vaP4e5O11gasCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&serviceName=vaP4e5O11gasCeLUCpjGhjy&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=grpc&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=grpc&alpn=http/1.1&path=twdf3vv91lqSsCeLUCpjGhjy&host=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&serviceName=twdf3vv91lqSsCeLUCpjGhjy&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 
 
