@@ -1,4 +1,5 @@
 
+ss://aes-256-cfb:0@20.23.03.09:00#0GB/1000GB Remain:90days 
 
 ####################################
 ## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  
@@ -54,22 +55,22 @@ vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX2RpcmVjdF92bWVzc1/wn5qAIFMxIEpPSU4gKEBv
 ####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vless://975b75ee-da3f-4c78-9399-352224260b77@104.16.209.12:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 CDN 1 JOIN (@oxnetch)
+vless://975b75ee-da3f-4c78-9399-352224260b77@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 CDN 1 JOIN (@oxnetch)
 
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-trojan://975b75ee-da3f-4c78-9399-352224260b77@104.16.209.12:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 CDN 1 JOIN (@oxnetch)
+trojan://975b75ee-da3f-4c78-9399-352224260b77@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 CDN 1 JOIN (@oxnetch)
 
 # tls_WS_CDN_vmess join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMSBDRE4gMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjoiMTA0LjE2LjIwOS4xMiIsICJwb3J0IjoiNDQzIiwgImlkIjoiOTc1Yjc1ZWUtZGEzZi00Yzc4LTkzOTktMzUyMjI0MjYwYjc3IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJ3cyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6cHAub3huZXRjaC16ejEuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJ0bHMiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6cHAub3huZXRjaC16ejEuZ3cudG8iLCJmcCI6ImNocm9tZSJ9
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMSBDRE4gMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6cHAub3huZXRjaC16ejEuZ3cudG8iLCAicG9ydCI6IjQ0MyIsICJpZCI6Ijk3NWI3NWVlLWRhM2YtNGM3OC05Mzk5LTM1MjIyNDI2MGI3NyIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6enBwLm94bmV0Y2gtenoxLmd3LnRvIiwgInBhdGgiOiIvcnlyUE5nOTRNeW1KMlZVTTE5L3ZtZXNzd3MiLCAidGxzIjoidGxzIiwgInNuaSI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6enBwLm94bmV0Y2gtenoxLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vless://975b75ee-da3f-4c78-9399-352224260b77@104.16.209.12:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 CDN 1 JOIN (@oxnetch)
+vless://975b75ee-da3f-4c78-9399-352224260b77@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 CDN 1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-trojan://975b75ee-da3f-4c78-9399-352224260b77@104.16.209.12:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 CDN 1 JOIN (@oxnetch)
+trojan://975b75ee-da3f-4c78-9399-352224260b77@join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 CDN 1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vmess join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMxIENETiAxIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiIxMDQuMTYuMjA5LjEyIiwgInBvcnQiOiI0NDMiLCAiaWQiOiI5NzViNzVlZS1kYTNmLTRjNzgtOTM5OS0zNTIyMjQyNjBiNzciLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6ImdycGMiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6enBwLm94bmV0Y2gtenoxLmd3LnRvIiwgInBhdGgiOiIiLCAidGxzIjoidGxzIiwgInNuaSI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6enBwLm94bmV0Y2gtenoxLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMxIENETiAxIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenpwcC5veG5ldGNoLXp6MS5ndy50byIsICJwb3J0IjoiNDQzIiwgImlkIjoiOTc1Yjc1ZWUtZGEzZi00Yzc4LTkzOTktMzUyMjI0MjYwYjc3IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJncnBjIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenpwcC5veG5ldGNoLXp6MS5ndy50byIsICJwYXRoIjoiIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenpwcC5veG5ldGNoLXp6MS5ndy50byIsImZwIjoiY2hyb21lIn0=
 
 
 
@@ -79,22 +80,22 @@ vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMxIENETiAxIEpPSU4g
 ####################################
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vless://975b75ee-da3f-4c78-9399-352224260b77@45.85.118.88:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 CDN 2 JOIN (@oxnetch)
+vless://975b75ee-da3f-4c78-9399-352224260b77@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/vlessws&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 CDN 2 JOIN (@oxnetch)
 
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-trojan://975b75ee-da3f-4c78-9399-352224260b77@45.85.118.88:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 CDN 2 JOIN (@oxnetch)
+trojan://975b75ee-da3f-4c78-9399-352224260b77@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=ws&path=/ryrPNg94MymJ2VUM19/trojanws&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 CDN 2 JOIN (@oxnetch)
 
 # tls_WS_CDN_vmess join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjoiNDUuODUuMTE4Ljg4IiwgInBvcnQiOiI0NDMiLCAiaWQiOiI5NzViNzVlZS1kYTNmLTRjNzgtOTM5OS0zNTIyMjQyNjBiNzciLCAiYWlkIjoiMCIsICJzY3kiOiJhdXRvIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenoub3huZXRjaC16ejEuZ3cudG8iLCAicGF0aCI6Ii9yeXJQTmc5NE15bUoyVlVNMTkvdm1lc3N3cyIsICJ0bHMiOiJ0bHMiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6Lm94bmV0Y2gtenoxLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19XU19DRE5fdm1lc3Nf8J+agCBTMSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjoiMTg4LjQyLjg5LjIiLCAicG9ydCI6IjQ0MyIsICJpZCI6Ijk3NWI3NWVlLWRhM2YtNGM3OC05Mzk5LTM1MjIyNDI2MGI3NyIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0Ijoid3MiLCAidHlwZSI6Im5vbmUiLCAiaG9zdCI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6ei5veG5ldGNoLXp6MS5ndy50byIsICJwYXRoIjoiL3J5clBOZzk0TXltSjJWVU0xOS92bWVzc3dzIiwgInRscyI6InRscyIsICJzbmkiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenoub3huZXRjaC16ejEuZ3cudG8iLCJmcCI6ImNocm9tZSJ9
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vless://975b75ee-da3f-4c78-9399-352224260b77@45.85.118.88:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 CDN 2 JOIN (@oxnetch)
+vless://975b75ee-da3f-4c78-9399-352224260b77@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-vlgrpc&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-trojan://975b75ee-da3f-4c78-9399-352224260b77@45.85.118.88:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 CDN 2 JOIN (@oxnetch)
+trojan://975b75ee-da3f-4c78-9399-352224260b77@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&type=grpc&host=join-to-oxnet-ch-network-mppzz.oxnetch-zz1.gw.to&serviceName=ryrPNg94MymJ2VUM19-trgrpc&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vmess join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to
-vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMxIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiI0NS44NS4xMTguODgiLCAicG9ydCI6IjQ0MyIsICJpZCI6Ijk3NWI3NWVlLWRhM2YtNGM3OC05Mzk5LTM1MjIyNDI2MGI3NyIsICJhaWQiOiIwIiwgInNjeSI6ImF1dG8iLCAibmV0IjoiZ3JwYyIsICJ0eXBlIjoibm9uZSIsICJob3N0Ijoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6Lm94bmV0Y2gtenoxLmd3LnRvIiwgInBhdGgiOiIiLCAidGxzIjoidGxzIiwgInNuaSI6ImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tcHB6ei5veG5ldGNoLXp6MS5ndy50byIsImZwIjoiY2hyb21lIn0=
+vmess://eyJ2IjoiMiIsICJwcyI6InRsc19ncnBjX0NETl92bWVzc1/wn5qAIFMxIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiIxODguNDIuODkuMiIsICJwb3J0IjoiNDQzIiwgImlkIjoiOTc1Yjc1ZWUtZGEzZi00Yzc4LTkzOTktMzUyMjI0MjYwYjc3IiwgImFpZCI6IjAiLCAic2N5IjoiYXV0byIsICJuZXQiOiJncnBjIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbXBwenoub3huZXRjaC16ejEuZ3cudG8iLCAicGF0aCI6IiIsICJ0bHMiOiJ0bHMiLCAic25pIjoiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1wcHp6Lm94bmV0Y2gtenoxLmd3LnRvIiwiZnAiOiJjaHJvbWUifQ==
 
 
 
