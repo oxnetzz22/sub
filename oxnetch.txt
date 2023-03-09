@@ -1,5 +1,4 @@
 
-ss://aes-256-cfb:0@20.23.03.09:00#0GB/1000GB Remain:90days 
 
 ####################################
 ## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  
