@@ -1,15 +1,15 @@
 
-
+trojan://1@20.23.03.09:21#0GB/2000GB%20Remain%3A28days 
 
 ####################################
 ## direct  join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to  
 ####################################
 
 # tls_WS_Fake_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@mci-tci-irancell11011.oxnetwork.gw.to:443?security=tls&sni=mci-tci-irancell11011.oxnetwork.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_🚀 S1 JOIN (@oxnetch)
+vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_vless_🚀 S1 JOIN (@oxnetch)
 
 # tls_WS_Fake_trojan join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
-trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@mci-tci-irancell11011.oxnetwork.gw.to:443?security=tls&sni=mci-tci-irancell11011.oxnetwork.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_🚀 S1 JOIN (@oxnetch)
+trojan://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mppz.oxnetch-zz1.gw.to&type=ws&path=/twdf3vv91lqSRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&fp=chrome&headerType=None&allowInsecure=true#tls_WS_Fake_trojan_🚀 S1 JOIN (@oxnetch)
 
 # tls_WS_direct_vless join-to-oxnet-ch-network-mppzzpp.oxnetch-zz1.gw.to
 vless://11d31c54-b83e-4515-a328-32b5b2b25dc5@join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to:443?security=tls&sni=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&type=ws&path=/vaP4e5O11gaRoW9iNIgG&host=join-to-oxnet-ch-network-mnni.oxnetch-zz1.gw.to&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_🚀 S1 JOIN (@oxnetch)
