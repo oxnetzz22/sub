@@ -1,294 +1,5 @@
 
-#trojan://1@20.23.03.11:16#0/9000GB_Remain:3650days 
 
-####################################
-## fake  speedtest.net  tls:443
-####################################
-
-# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=speedtest.net&type=tcp&alpn=h2&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_XTLS_direct_vless_http only
-
-# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_vless_http only
-
-# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_trojan_http only
-
-# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAic3BlZWR0ZXN0Lm5ldCIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNwZWVkdGVzdC5uZXQiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_vless_http only
-
-# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_trojan_http only
-
-# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAic3BlZWR0ZXN0Lm5ldCIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=speedtest.net&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_vless_http only
-
-# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=speedtest.net&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_trojan_http only
-
-# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
-
-# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=shadowtls&alpn=h2&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_h2_shadowtls_direct_ss_http only
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=speedtest.net&type=tcp&alpn=http/1.1&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_XTLS_direct_vless_http only
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_vless_http only
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_trojan_http only
-
-# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAic3BlZWR0ZXN0Lm5ldCIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNwZWVkdGVzdC5uZXQiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_vless_http only
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_trojan_http only
-
-# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAic3BlZWR0ZXN0Lm5ldCIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=speedtest.net&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_vless_http only
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=speedtest.net&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_trojan_http only
-
-# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
-
-# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=speedtest.net&type=shadowtls&alpn=http/1.1&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_shadowtls_direct_ss_http only
-
-
-
-
-####################################
-## fake  soft98.ir  tls:443
-####################################
-
-# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=soft98.ir&type=tcp&alpn=h2&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_XTLS_direct_vless_http only
-
-# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_vless_http only
-
-# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_trojan_http only
-
-# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAic29mdDk4LmlyIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAic29mdDk4LmlyIiwgImZwIjogImNocm9tZSJ9
-
-# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_vless_http only
-
-# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_trojan_http only
-
-# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInNvZnQ5OC5pciIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzR0NuR3NORnZEeCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzb2Z0OTguaXIiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=soft98.ir&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_vless_http only
-
-# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=soft98.ir&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_trojan_http only
-
-# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInNvZnQ5OC5pciIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNvZnQ5OC5pciIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=shadowtls&alpn=h2&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_h2_shadowtls_direct_ss_http only
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=soft98.ir&type=tcp&alpn=http/1.1&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_XTLS_direct_vless_http only
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_vless_http only
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_trojan_http only
-
-# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAic29mdDk4LmlyIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAic29mdDk4LmlyIiwgImZwIjogImNocm9tZSJ9
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=soft98.ir&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_vless_http only
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_trojan_http only
-
-# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInNvZnQ5OC5pciIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzR0NuR3NORnZEeCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzb2Z0OTguaXIiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=soft98.ir&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_vless_http only
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=soft98.ir&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_trojan_http only
-
-# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInNvZnQ5OC5pciIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNvZnQ5OC5pciIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=soft98.ir&type=shadowtls&alpn=http/1.1&host=soft98.ir&fp=chrome&headerType=None&allowInsecure=true#tls_shadowtls_direct_ss_http only
-
-
-
-
-####################################
-## fake  www.canva.com  tls:443
-####################################
-
-# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=www.canva.com&type=tcp&alpn=h2&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_XTLS_direct_vless_http only
-
-# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_vless_http only
-
-# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_trojan_http only
-
-# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAid3d3LmNhbnZhLmNvbSIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogInd3dy5jYW52YS5jb20iLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_vless_http only
-
-# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_trojan_http only
-
-# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInd3dy5jYW52YS5jb20iLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAid3d3LmNhbnZhLmNvbSIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=www.canva.com&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_vless_http only
-
-# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=www.canva.com&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_trojan_http only
-
-# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInd3dy5jYW52YS5jb20iLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJ3d3cuY2FudmEuY29tIiwgImZwIjogImNocm9tZSJ9
-
-# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=shadowtls&alpn=h2&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_h2_shadowtls_direct_ss_http only
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=www.canva.com&type=tcp&alpn=http/1.1&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_XTLS_direct_vless_http only
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_vless_http only
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_trojan_http only
-
-# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19odHRwIG9ubHkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAid3d3LmNhbnZhLmNvbSIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogInd3dy5jYW52YS5jb20iLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=www.canva.com&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_vless_http only
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_trojan_http only
-
-# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3NfaHR0cCBvbmx5IiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogInd3dy5jYW52YS5jb20iLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAid3d3LmNhbnZhLmNvbSIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=www.canva.com&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_vless_http only
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=www.canva.com&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_trojan_http only
-
-# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2h0dHAgb25seSIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogInd3dy5jYW52YS5jb20iLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJ3d3cuY2FudmEuY29tIiwgImZwIjogImNocm9tZSJ9
-
-# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=www.canva.com&type=shadowtls&alpn=http/1.1&host=www.canva.com&fp=chrome&headerType=None&allowInsecure=true#tls_shadowtls_direct_ss_http only
-
-
-
-
-####################################
-## direct  join-to-oxnet-ch-network-mez.userargo1723.cf  tls:443
-####################################
-
-# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_XTLS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
-
-# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_tcp_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_tcp_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJodHRwIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=shadowtls&alpn=h2&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_shadowtls_direct_ss_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
-
-# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJodHRwIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
-
-# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
-
-# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
-
-# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
-ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=shadowtls&alpn=http/1.1&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_shadowtls_direct_ss_join-to-oxnet-ch-network-mez.userargo1723.cf
 
 
 
@@ -297,36 +8,41 @@ ss://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-mez.userargo1
 ## cdn  join-to-oxnet-ch-network-cdsrty.userargo1723.cf  tls:443
 ####################################
 
+# tls_h2_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_CDN_vless_🚀 S1 JOIN (@oxnetch)
+
+# tls_h2_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_CDN_trojan_🚀 S1 JOIN (@oxnetch)
 
 # tls_h2_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUzEgSk9JTiAoQG94bmV0Y2gpIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3J0eS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUzEgSk9JTiAoQG94bmV0Y2gpIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3J0eS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
 
 # tls_h2_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S1 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S1 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S1 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S1 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S1 JOIN (@oxnetch)
 
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S1 JOIN (@oxnetch)
 
 # tls_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUzEgSk9JTiAoQG94bmV0Y2gpIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3J0eS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUzEgSk9JTiAoQG94bmV0Y2gpIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBhdGgiOiAiL2JFOFozVlBhcVloc3NEZWlTY2xZazY2S2VldmwiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3J0eS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-cdsrty.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdsrty.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S1 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTMSBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzcnR5LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogImJFOFozVlBhcVloc3NWNHpvQ3NpIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHNydHkudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 
 
@@ -336,40 +52,40 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTMSBK
 ####################################
 
 # tls_h2_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_h2_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_h2_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjQ1Ljg1LjExOS4xMjAiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHN0dXUudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjQ1Ljg1LjExOS4xMjAiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHN0dXUudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 # tls_h2_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiNDUuODUuMTE5LjEyMCIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3R1dS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiNDUuODUuMTE5LjEyMCIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3R1dS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjQ1Ljg1LjExOS4xMjAiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHN0dXUudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMiBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjQ1Ljg1LjExOS4xMjAiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jZHN0dXUudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@45.85.119.120:443?security=tls&sni=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-cdstuu.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 2 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiNDUuODUuMTE5LjEyMCIsICJwb3J0IjogNDQzLCAiaWQiOiAiYzZhNTRmOGUtMDJmZC00YWNkLWJjNzctMWY3ZDg3Y2RhMzFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3R1dS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAyIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiNDUuODUuMTE5LjEyMCIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNkc3R1dS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY2RzdHV1LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
 
 
 
@@ -378,37 +94,184 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERF
 ## cdn  join-to-oxnet-ch-network-crtoo.userargo1723.cf  tls:443
 ####################################
 
+# tls_h2_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+
+# tls_h2_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_h2_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMyBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjE4OC40Mi44OS4yIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNydG9vLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMyBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjE4OC40Mi44OS4yIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNydG9vLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
 
 # tls_h2_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_h2_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAzIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiMTg4LjQyLjg5LjIiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY3J0b28udXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAzIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiMTg4LjQyLjg5LjIiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY3J0b28udXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 # tls_WS_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_WS_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&fp=chrome&headerType=None#tls_WS_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_WS_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMyBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjE4OC40Mi44OS4yIiwgInBvcnQiOiA0NDMsICJpZCI6ICJjNmE1NGY4ZS0wMmZkLTRhY2QtYmM3Ny0xZjdkODdjZGEzMWQiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNydG9vLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX0NETl92bWVzc19cdWQ4M2RcdWRlODAgUyBERSBDRE4gMyBKT0lOIChAb3huZXRjaCkiLCAiYWRkIjogIjE4OC40Mi44OS4yIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLWNydG9vLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
 
 # tls_grpc_CDN_vless join-to-oxnet-ch-network-mez.userargo1723.cf
-vless://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_CDN_vless_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_grpc_CDN_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
-trojan://c6a54f8e-02fd-4acd-bc77-1f7d87cda31d@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@188.42.89.2:443?security=tls&sni=join-to-oxnet-ch-network-crtoo.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-crtoo.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_CDN_trojan_🚀 S DE CDN 3 JOIN (@oxnetch)
 
 # tls_grpc_CDN_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
-vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAzIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiMTg4LjQyLjg5LjIiLCAicG9ydCI6IDQ0MywgImlkIjogImM2YTU0ZjhlLTAyZmQtNGFjZC1iYzc3LTFmN2Q4N2NkYTMxZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY3J0b28udXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfQ0ROX3ZtZXNzX1x1ZDgzZFx1ZGU4MCBTIERFIENETiAzIEpPSU4gKEBveG5ldGNoKSIsICJhZGQiOiAiMTg4LjQyLjg5LjIiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1jcnRvby51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstY3J0b28udXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
 
 
 
 
+####################################
+## direct  join-to-oxnet-ch-network-moiaa.userargo1723.cf  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=h2&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_XTLS_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_tcp_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_h2_tcp_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
+ss://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=shadowtls&alpn=h2&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_h2_shadowtls_direct_ss_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=http/1.1&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1vaWFhLnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tb2lhYS51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbW9pYWEudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+
+# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
+ss://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-moiaa.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-moiaa.userargo1723.cf&type=shadowtls&alpn=http/1.1&host=join-to-oxnet-ch-network-moiaa.userargo1723.cf&fp=chrome&headerType=None#tls_shadowtls_direct_ss_join-to-oxnet-ch-network-moiaa.userargo1723.cf
+
+
+
+
+####################################
+## direct  join-to-oxnet-ch-network-mez.userargo1723.cf  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_XTLS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=h2&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_WS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=h2&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_WS_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_h2_tcp_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=h2&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_tcp_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJodHRwIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=h2&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=h2&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_h2_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_h2_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
+ss://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=shadowtls&alpn=h2&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_h2_shadowtls_direct_ss_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_XTLS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_WS_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=http/1.1&path=/oHdmHXgFCDeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_WS_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=ws&alpn=http/1.1&path=/p0jgJP4DeiSclYk66Keevl&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_WS_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_WS_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19qb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJhZGQiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicG9ydCI6IDQ0MywgImlkIjogIjc3ZWY1OTU0LTQwZjgtNDcwYS05ZjIwLTk2ZTRmNGY5NWEwYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwYXRoIjogIi9iRThaM1ZQYXFZaHNzRGVpU2NsWWs2NktlZXZsIiwgInRscyI6ICJ0bHMiLCAic25pIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImZwIjogImNocm9tZSJ9
+
+# tls_tcp_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&path=/oHdmHXgFCGCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_tcp_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=tcp&alpn=http/1.1&path=/p0jgJP4GCnGsNFvDx&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_tcp_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_tcp_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3Nfam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiYWRkIjogImpvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgInBvcnQiOiA0NDMsICJpZCI6ICI3N2VmNTk1NC00MGY4LTQ3MGEtOWYyMC05NmU0ZjRmOTVhMGIiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJodHRwIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICIvYkU4WjNWUGFxWWhzc0dDbkdzTkZ2RHgiLCAidGxzIjogInRscyIsICJzbmkiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_direct_vless join-to-oxnet-ch-network-mez.userargo1723.cf
+vless://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=http/1.1&path=oHdmHXgFCV4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=oHdmHXgFCV4zoCsi&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_grpc_direct_trojan join-to-oxnet-ch-network-mez.userargo1723.cf
+trojan://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=grpc&alpn=http/1.1&path=p0jgJP4V4zoCsi&host=join-to-oxnet-ch-network-mez.userargo1723.cf&serviceName=p0jgJP4V4zoCsi&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_join-to-oxnet-ch-network-mez.userargo1723.cf
+
+# tls_grpc_direct_vmess join-to-oxnet-ch-network-mez.userargo1723.cf
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2pvaW4tdG8tb3huZXQtY2gtbmV0d29yay1tZXoudXNlcmFyZ28xNzIzLmNmIiwgImFkZCI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJwb3J0IjogNDQzLCAiaWQiOiAiNzdlZjU5NTQtNDBmOC00NzBhLTlmMjAtOTZlNGY0Zjk1YTBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogIm11bHRpIiwgImhvc3QiOiAiam9pbi10by1veG5ldC1jaC1uZXR3b3JrLW1lei51c2VyYXJnbzE3MjMuY2YiLCAicGF0aCI6ICJiRThaM1ZQYXFZaHNzVjR6b0NzaSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJqb2luLXRvLW94bmV0LWNoLW5ldHdvcmstbWV6LnVzZXJhcmdvMTcyMy5jZiIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_shadowtls_direct_ss join-to-oxnet-ch-network-mez.userargo1723.cf
+ss://77ef5954-40f8-470a-9f20-96e4f4f95a0b@join-to-oxnet-ch-network-mez.userargo1723.cf:443?security=tls&sni=join-to-oxnet-ch-network-mez.userargo1723.cf&type=shadowtls&alpn=http/1.1&host=join-to-oxnet-ch-network-mez.userargo1723.cf&fp=chrome&headerType=None#tls_shadowtls_direct_ss_join-to-oxnet-ch-network-mez.userargo1723.cf
